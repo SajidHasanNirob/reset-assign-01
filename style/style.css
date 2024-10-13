@@ -126,9 +126,10 @@ h3 {
 .my-content {
     text-align: center;
     margin: 0 290px;
+    margin-top: 110px;
 }
 
-.video-container{
+.video-container {
     margin-left: auto;
     margin-right: auto;
     max-width: 1140px;
@@ -139,4 +140,55 @@ h3 {
     border-radius: 16px;
     padding: 32px;
     text-align: center;
+}
+
+.target-container {
+    margin: 111px 50px;
+}
+
+.target-content {
+    display: flex;
+    margin-left: 80px;
+    margin-right: 80px;
+
+}
+
+.skill {
+    padding: 40px;
+    margin-top: 40px;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+.skill-title {
+    color: rgb(13, 19, 33);
+    font-size: 18px;
+    font-weight: 800;
+}
+
+.first {
+    width: 800px;
+    border-radius: 16px;
+    background: rgba(255, 76, 30, 0.05);
+}
+
+.sec {
+    width: 800px;
+    border-radius: 16px;
+    background: rgba(0, 76, 232, 0.05);
+}
+
+.third {
+    width: 800px;
+    border-radius: 16px;
+    background: rgba(255, 223, 0, 0.05);
+}
+
+
+
+.link {
+    color: rgb(13, 19, 33);
+    font-size: 14px;
+    font-weight: 700;
+    text-decoration-line: underline;
 }
