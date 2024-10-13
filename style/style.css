@@ -122,3 +122,8 @@ h3 {
     padding: 12px 20px 12px 20px;
     background-color: whitesmoke;
 }
+
+.my-content{
+    text-align: center;
+    margin: 0 290px;
+}
