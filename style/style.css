@@ -193,9 +193,93 @@ h3 {
     text-decoration-line: underline;
 }
 
-.my-next-title{
+.my-next-title {
     margin-top: 40px;
     margin-left: 370px;
     margin-right: 370px;
     text-align: center;
+}
+
+.react-container {
+    margin-left: 150px;
+    margin-right: 150px;
+    box-sizing: border-box;
+    border: 1px solid rgba(13, 19, 33, 0.15);
+    border-radius: 16px;
+    background: rgb(255, 255, 255);
+    padding: 40px;
+    margin-top: 40px;
+    display: flex;
+    align-items: center;
+}
+
+.next-img {
+    padding-top: 40px;
+    /* padding-left: 20px; */
+    padding-right: 30px;
+}
+
+.support {
+
+    margin-top: 50px;
+    margin-left: 150px;
+    margin-right: 150px;
+    border-radius: 16px;
+    background-color: rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2);
+    width: 78%;
+    /* Set container width */
+    height: 70%;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-image: url(/assets/handshake.jpg);
+}
+
+.support-content {
+    padding: 50px 48px 60px 48px;
+    text-align: center;
+}
+
+.form-input {
+    color: rgba(13, 19, 33, 0.4);
+    font-size: 16px;
+    font-weight: 400;
+    /* Box design */
+    box-sizing: border-box;
+    border: 1px solid rgba(13, 19, 33, 0.15);
+    border-radius: 8px;
+    background: rgb(255, 255, 255);
+    margin-top: 10px;
+    width: 500px;
+    height: 57px;
+    padding: 19px 20px 19px 20px;
+}
+
+.btn-4th {
+    color: rgb(13, 19, 33);
+    font-size: 18px;
+    font-weight: 600;
+    /* box design */
+    width: 120px;
+    height: 57px;
+    box-sizing: border-box;
+    border: 1px solid rgba(13, 19, 33, 0.15);
+    border-radius: 8px;
+    background: rgb(255, 255, 255);
+    padding: 17px 20px 17px 20px;
+}
+
+.sp-title {
+    color: rgb(255, 255, 255);
+}
+
+.sp-des {
+    color: rgb(255, 255, 255);
+}
+
+.footer-container {
+
+    margin: 110px 150px 0px 150px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
